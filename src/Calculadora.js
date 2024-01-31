@@ -80,7 +80,7 @@ function Calculadora() {
               className="text-right"
               readOnly="readOnly" 
               value={txtNumeros}
-              />
+              data-testid="txtNumeros" />
             </Col >
           </Row>
 
