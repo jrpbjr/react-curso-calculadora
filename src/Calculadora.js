@@ -102,7 +102,7 @@ function Calculadora() {
             </Col>
             <Col>
               <Button variant='warning' onClick=
-              {()=>{definirOperacao('/')}}>/</Button>
+              {()=>{definirOperacao(DIVISAO)}}>/</Button>
             </Col>
           </Row>
 
@@ -124,7 +124,7 @@ function Calculadora() {
             </Col>
             <Col>
               <Button variant='warning'  onClick=
-              {()=>{definirOperacao('*')}}>*</Button>
+              {()=>{definirOperacao(MULTIPLICACAO)}}>*</Button>
             </Col>
           </Row>
 
@@ -146,7 +146,7 @@ function Calculadora() {
             </Col>
             <Col>
               <Button variant='warning'  onClick=
-              {()=>{definirOperacao('-')}}>-</Button>
+              {()=>{definirOperacao(SUBTRACAO)}}>-</Button>
             </Col>
           </Row>
 
@@ -168,7 +168,7 @@ function Calculadora() {
             </Col>
             <Col>
               <Button variant='warning'  onClick=
-              {()=>{definirOperacao('+')}}>+</Button>
+              {()=>{definirOperacao(SOMA)}}>+</Button>
             </Col>
           </Row>
 
